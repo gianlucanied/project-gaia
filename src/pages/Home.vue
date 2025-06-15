@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="carousel">
+  <div class="container">
+    <div class="carousel row">
       <img :src="images[currentIndex]" alt="Slide" />
     </div>
   </div>
@@ -23,10 +23,16 @@
       <div class="roles">{{ project.role }}</div>
       <div class="title-project">{{ project.title }}</div>
       <div class="section-img">
-        <img :src="project.image" alt="Project Image" />
+        <img
+          v-for="(img, idx) in project.image"
+          :key="idx"
+          :src="img"
+          alt="Project Image"
+        />
       </div>
+
       <p class="description-project">{{ project.description }}</p>
-      <p class="location">{{ project.location }}</p>
+      <p class="location" v-html="project.location"></p>
       <div class="link">
         <span>LINK TO CONTENT:</span><br />
         <a
@@ -47,16 +53,21 @@ export default {
   data() {
     return {
       images: [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=600&q=80",
+        "../../public/immagini_video_high_res/Loro-Piana_Spring-Summer-2024_Collection-Presentation-2-Set-Up-1-scaled.jpeg",
+        "../../public/immagini_video_high_res/futuristic.avif",
+        "../../public/immagini_video_high_res/equilibrio_1.jpg",
+        "../../public/immagini_video_high_res/Loro-Piana_Fall-Winter-2024-2025_Collection-Presentation_Set-Up-1-1-scaled.jpg",
       ],
       projects: [
         {
           role: "SET DESIGN",
           title: "JOSHUA SERAFIN FOR HORST 2025",
-          image:
-            "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+            "../../public/immagini_video_high_res/HORST.jpg",
+          ],
+
           description: `“Buried in a Coffin the Size of a Grain of Rice” (Installation) and “Midnight Pearls” (film) were installed in one of the art
 pavilion at Horst festival for the 2025 edition. Within this space of meditation, prayer, silence and offering, we are invited to at
 once re-enter the body and be transported to an in-between realm. Here, darkness is embraced to discover the first rays of light. A
@@ -72,24 +83,28 @@ I was part of the set design team that built the art and the pavilion before Hor
         {
           role: "PROJECT MANAGEMENT",
           title: "CONVEY 2025",
-          image:
-            "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
           description: `Convey reached its third edition, establishing itself as a prominent international platform and accelerator for design. In close
 collaboration with Simple Flair studio, I had the role of project manager of the exhibition and event producer, keep deadlines
 and overseeing the brand identity and art direction for the setup and spatial design of the new location in the heart of Porta
 Venezia. The project expanded along the street, creating a cohesive and engaging territorial experience that seamlessly
 integrated various brand showcases and initiatives.`,
-          location: `shown at
-Milan Design Week
-Via Rosolino Pilo 14, Milano
-10 – 13 April 2025`,
+          location: `shown at <br>
+Milan Design Week <br>
+Via Rosolino Pilo 14, Milano <br>
+10 - 13 April 2025`,
           links: ["https://www.instagram.com/c_o_n_v_e_y/?hl=en"],
         },
         {
           role: "CREATIVE PRODUCTION",
           title: "PRADA FW25 SHOW",
-          image:
-            "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
           description: `Definition of creative briefs and image research.
 Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
 models), fees negotiation, budget alignment.
@@ -99,6 +114,208 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
           links: [
             "https://www.instagram.com/p/DGpoHOuNiM1/",
             "https://www.tiktok.com/@prada/video/7462668107073490198?lang=en",
+          ],
+        },
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "PRADA ALWAYS ON",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Definition of creative briefs and image research.
+Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
+models), fees negotiation, budget alignment.
+Coordination of pre-production logistc and post-production scheduling.
+Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@prada/video/7503701471863622934?lang=en",
+            "https://www.tiktok.com/@prada/video/7478371736174546198?lang=en",
+            "https://www.tiktok.com/@prada/video/7496428452103556374?lang=en",
+          ],
+        },
+        {
+          role: "EVENT PRODUCTION",
+          title: "EQUILIBRIO PROJECT 2024",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Equilibrio is a yearly art residency and music festival taking place in Porto Ferro, Sardinia where emerging artists and experimental music
+merge in a 7 days community experience.
+I was part of the collective, overseeing the the production of the festival (logistic, artists accommodation, food and beverage
+organisation), the set design of the space and the communication (social media content, copywriting) and business developments (connect
+with potential partners, make presentations and planning)`,
+          location: "",
+          links: [" https://www.instagram.com/project.equilibrio/?hl=en"],
+        },
+
+        {
+          role: "FEATURE WRITING",
+          title: "SUZANNE CIANI X NR MAGAZINE",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Interview to Suzanne Ciani - the legendary electronic music pioneer - discussing her decades-long career, transcendence in
+sound, and reshaping consciousness. <br>
+Interview by Gaia Grisanti <br>
+Photography by Yudo Kurita <br>
+Styling by Elidad <br>
+Clothes Bottega Veneta`,
+          location: "",
+          links: ["https://www.instagram.com/p/DFiTuY5I8kU/?hl=en"],
+        },
+
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "ACNE STUDIOS FW23 SHOW",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
+social-first content, ensuring alignment with the brand guideline.
+Production of ad-hoc timelines for content production, post-production and delivery for all social platforms.
+Image and film coordination of KOLs, celebrities and Talents at the photocall.
+Definition of the the social editorial calendars and content rollouts.`,
+          location:
+            "shown at Lycée Carnot 145 Boulevard Malesherbes in the 17th arrondissement, Paris",
+          links: ["https://www.youtube.com/watch?v=SvYFB6Is_kE"],
+        },
+
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "ACNE STUDIOS SS23 SHOW",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
+social-first content, ensuring alignment with the brand guideline.
+Production of ad-hoc timelines for content production, post-production and delivery for all social platforms.
+Image and film coordination of KOLs, celebrities and Talents at the photocall.
+Definition of the the social editorial calendars and content rollouts`,
+          location:
+            "shown at Palais De Tokyo 13 Av. du Président Wilson, 75116 Paris, France",
+          links: ["https://www.youtube.com/watch?v=NWx5hKTwO5I&t=6s"],
+        },
+
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "ACNE STUDIOS DIGITAL CONTENT",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Art direction and content production for Acne Studios Tik Tok channel, featuring runway content,
+Backstage, everyday storytelling.
+Production of ad-hoc timelines for content production, post-production and delivery for all social platforms.
+Coordination the social editorial calendars and content rollouts.`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@acnestudios/video/7176652147130404101?lang=en",
+            "https://www.tiktok.com/@acnestudios/video/7195245894218960134?lang=en",
+            "https://www.tiktok.com/@acnestudios/video/7206351986193665285?lang=en",
+          ],
+        },
+
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "LORO PIANA FW24 LOOKBOOK",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Definition of creative briefs and image research.
+Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
+editors, models)
+Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@loropiana/video/7397468770744143136?lang=en",
+            "https://www.tiktok.com/@loropiana/video/7390771009902611744?lang=en",
+            "https://www.tiktok.com/@loropiana/video/7390771009902611744?lang=en",
+          ],
+        },
+
+        {
+          role: "CREATIVE PRODUCTION",
+          title: "LORO PIANA HOLIDAY CAMPAIGN FW24",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `Definition of creative briefs and image research.
+Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
+editors, models)
+Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@loropiana/video/7436464688558247190?lang=en",
+            "https://www.tiktok.com/@loropiana/video/7437198687098490134?lang=en",
+            "https://www.tiktok.com/@loropiana/video/7448007045887888662?lang=en",
+          ],
+        },
+
+        {
+          role: "EVENT + TALENTS COORDINATION",
+          title: "LORO PIANA MILAN DESIGN WEEK 2024",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
+My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+presence at events and taking care of content creation.
+This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@loropiana/video/7359578713257790753?lang=en",
+          ],
+        },
+
+        {
+          role: "EVENT + TALENTS COORDINATION",
+          title: "LORO PIANA SS24 PRESS PRESENTATION",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
+My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+presence at events and taking care of content creation.
+This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@loropiana/video/7281702802357865760?lang=en",
+          ],
+        },
+
+        {
+          role: "EVENT + TALENTS COORDINATION",
+          title: "LORO PIANA FW24 PRESS PRESENTATION",
+          image: [
+            "../../public/immagini_video_high_res/details.jpg",
+            "../../public/immagini_video_high_res/details-2.jpg",
+          ],
+          description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
+My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+presence at events and taking care of content creation.
+This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          location: "",
+          links: [
+            "https://www.tiktok.com/@loropiana/video/7339203239247629600?lang=en",
           ],
         },
       ],
@@ -166,8 +383,8 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 
 .carousel img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -223,7 +440,6 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 
 .title-project {
   grid-area: title;
-  align-self: center;
   text-align: end;
   font-size: 3rem;
 }
@@ -256,16 +472,14 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   grid-area: link;
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
-  a {
-    color: white;
-    text-decoration: none;
-  }
 }
 
 .link a {
   color: white;
   text-decoration: none;
   position: relative;
+  display: block;
+  margin-bottom: 0.2rem;
 }
 
 .link a::after {
@@ -276,10 +490,23 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   width: 0%;
   height: 1px;
   background-color: white;
-  transition: width 0.5s ease;
+  transition: width 1s ease;
 }
 
 .link a:hover::after {
   width: 100%;
 }
+
+.section-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-img img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
 </style>
