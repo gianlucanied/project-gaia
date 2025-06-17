@@ -66,4 +66,10 @@
   clip-path: inset(0 100% 0 0);
   animation: reveal 3s steps(30, end) forwards;
 }
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    max-width: 70vw;
+    }
+}
 </style>
