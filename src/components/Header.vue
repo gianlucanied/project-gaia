@@ -25,4 +25,11 @@ a {
   color: white;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  a {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
 </style>
