@@ -55,10 +55,10 @@ export default {
   data() {
     return {
       images: [
-        "/public/immagini_video_high_res/6.jpeg",
-        "/public/immagini_video_high_res/futuristic.avif",
-        "/public/immagini_video_high_res/equilibrio_1.jpg",
-        "/public/immagini_video_high_res/back-of-the-house-acne-studios-ss236-thumb.jpg",
+        "/immagini_video_high_res/6.jpeg",
+        "/immagini_video_high_res/futuristic.avif",
+        "/immagini_video_high_res/equilibrio_1.jpg",
+        "/immagini_video_high_res/back-of-the-house-acne-studios-ss236-thumb.jpg",
       ],
       projects: [
         {
