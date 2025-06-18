@@ -108,8 +108,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "PRADA FW25 SHOW",
           image: [
-            "/immagini_video_high_res/9.mp4",
-            "/immagini_video_high_res/Download.mp4",
+            "/immagini_video_high_res/100.png",
+            "/immagini_video_high_res/101.png",
+            "/immagini_video_high_res/102.png",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors, models), fees negotiation, budget alignment. <br>
@@ -125,9 +126,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "PRADA ALWAYS ON",
           image: [
-            "/immagini_video_high_res/Download-copy.mp4",
-            "/immagini_video_high_res/Download_(1).mp4",
-            "/immagini_video_high_res/Download-copy-2.mp4",
+            "/immagini_video_high_res/103.png",
+            "/immagini_video_high_res/104.png",
+            "/immagini_video_high_res/105.png",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
@@ -217,9 +218,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "ACNE STUDIOS DIGITAL CONTENT",
           image: [
-            "/immagini_video_high_res/Downloadcopy3.mp4",
-            "/immagini_video_high_res/Download(1)copy.mp4",
-            "/immagini_video_high_res/Download(2).mp4",
+            "/immagini_video_high_res/105.png",
+            "/immagini_video_high_res/106.png",
+            "/immagini_video_high_res/107.png",
           ],
           description: `Art direction and content production for Acne Studios Tik Tok channel, featuring runway content, <br>
         Backstage, everyday storytelling. <br>
@@ -237,9 +238,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA FW24 LOOKBOOK",
           image: [
-            "/immagini_video_high_res/Downloadcopy4.mp4",
-            "/immagini_video_high_res/Downloadcopy5.mp4",
-            "/immagini_video_high_res/Downloadcopy6.mp4",
+            "/immagini_video_high_res/108.png",
+            "/immagini_video_high_res/109.png",
+            "/immagini_video_high_res/110.png",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team, <br>
@@ -257,8 +258,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA HOLIDAY CAMPAIGN FW24",
           image: [
-            "/immagini_video_high_res/Downloadcopy11.00.07.mp4",
-            "/immagini_video_high_res/Downloadcopy7.mp4",
+            "/immagini_video_high_res/111.png",
+            "/immagini_video_high_res/112.png",
+            "/immagini_video_high_res/113.png",
+
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
@@ -276,9 +279,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA COCOONING CAMPAIGN SS23",
           image: [
-            "/immagini_video_high_res/Downloadcopy8.mp4",
-            "/immagini_video_high_res/Download(1)copy3.mp4",
-            "/immagini_video_high_res/Download(2)copy.mp4",
+            "/immagini_video_high_res/114.png",
+            "/immagini_video_high_res/115.png",
+            "/immagini_video_high_res/116.png",
+
           ],
           description: `Definition of creative briefs and image research. <br>
 Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
@@ -575,29 +579,46 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   .title-project {
     grid-area: title;
     text-align: end;
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding-bottom: 50px;
+  }
+
+  .roles {
+    font-size: 1rem;
   }
 
   .project-section {
     padding: 50px;
   }
 
+  .link {
+    font-size: 10px;
+  }
+
   .description-project {
     text-align: end;
+    font-size: 10px;
   }
 
   .big-title {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
 
   .mid-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .carousel {
     height: auto;
+  }
+
+  .section-img img {
+    width: 150px;
+  }
+
+  .location {
+    font-size: 10px;
   }
 }
 </style>
