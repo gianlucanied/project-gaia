@@ -65,9 +65,9 @@ export default {
           role: "SET DESIGN",
           title: "JOSHUA SERAFIN FOR HORST 2025",
           image: [
-            "../../public/immagini_video_high_res/details.jpg",
-            "../../public/immagini_video_high_res/details-2.jpg",
-            "../../public/immagini_video_high_res/HORST.jpg",
+            "/immagini_video_high_res/details.jpg",
+            "/immagini_video_high_res/details-2.jpg",
+            "/immagini_video_high_res/HORST.jpg",
           ],
 
           description: `“Buried in a Coffin the Size of a Grain of Rice” (Installation) and “Midnight Pearls” (film) were installed in one of the art
@@ -87,9 +87,9 @@ export default {
           role: "PROJECT MANAGEMENT",
           title: "CONVEY 2025",
           image: [
-            "../../public/immagini_video_high_res/convey_installation-view-27-768x960.jpeg",
-            "../../public/immagini_video_high_res/convey_installation-view-26-768x960.jpg",
-            "../../public/immagini_video_high_res/convey_installation-view-18-768x960.jpg",
+            "/immagini_video_high_res/convey_installation-view-27-768x960.jpeg",
+            "/immagini_video_high_res/convey_installation-view-26-768x960.jpg",
+            "/immagini_video_high_res/convey_installation-view-18-768x960.jpg",
           ],
           description: `Convey reached its third edition, establishing itself as a prominent international platform and accelerator for design. In close
         collaboration with Simple Flair studio, I had the role of project manager of the exhibition and event producer, keep deadlines
@@ -108,8 +108,8 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "PRADA FW25 SHOW",
           image: [
-            "../../public/immagini_video_high_res/9.mp4",
-            "../../public/immagini_video_high_res/Download.mp4",
+            "/immagini_video_high_res/9.mp4",
+            "/immagini_video_high_res/Download.mp4",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors, models), fees negotiation, budget alignment. <br>
@@ -125,9 +125,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "PRADA ALWAYS ON",
           image: [
-            "../../public/immagini_video_high_res/Download-copy.mp4",
-            "../../public/immagini_video_high_res/Download_(1).mp4",
-            "../../public/immagini_video_high_res/Download-copy-2.mp4",
+            "/immagini_video_high_res/Download-copy.mp4",
+            "/immagini_video_high_res/Download_(1).mp4",
+            "/immagini_video_high_res/Download-copy-2.mp4",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
@@ -145,9 +145,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "EVENT PRODUCTION",
           title: "EQUILIBRIO PROJECT 2024",
           image: [
-            "../../public/immagini_video_high_res/10.jpg",
-            "../../public/immagini_video_high_res/equilibrio_1.jpg",
-            "../../public/immagini_video_high_res/8.jpg",
+            "/immagini_video_high_res/10.jpg",
+            "/immagini_video_high_res/equilibrio_1.jpg",
+            "/immagini_video_high_res/8.jpg",
           ],
           description: `Equilibrio is a yearly art residency and music festival taking place in Porto Ferro, Sardinia where emerging artists and experimental music
         merge in a 7 days community experience. <br>
@@ -162,9 +162,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "FEATURE WRITING",
           title: "SUZANNE CIANI X NR MAGAZINE",
           image: [
-            "../../public/immagini_video_high_res/17.10.24.png",
-            "../../public/immagini_video_high_res/14.58.05.png",
-            "../../public/immagini_video_high_res/1.jpg",
+            "/immagini_video_high_res/17.10.24.png",
+            "/immagini_video_high_res/14.58.05.png",
+            "/immagini_video_high_res/1.jpg",
           ],
           description: `Interview to Suzanne Ciani - the legendary electronic music pioneer - discussing her decades-long career, transcendence in
         sound, and reshaping consciousness. <br>
@@ -181,9 +181,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "ACNE STUDIOS FW23 SHOW",
           image: [
-            "../../public/immagini_video_high_res/FqJZSEuWcAA0uTa.jpeg",
-            "../../public/immagini_video_high_res/Screenshot2025-06-17184652.png",
-            "../../public/immagini_video_high_res/Screenshot2025-06-17184824.png",
+            "/immagini_video_high_res/FqJZSEuWcAA0uTa.jpeg",
+            "/immagini_video_high_res/Screenshot2025-06-17184652.png",
+            "/immagini_video_high_res/Screenshot2025-06-17184824.png",
           ],
           description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
         social-first content, ensuring alignment with the brand guideline. <br>
@@ -199,9 +199,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "ACNE STUDIOS SS23 SHOW",
           image: [
-            "../../public/immagini_video_high_res/234.png",
-            "../../public/immagini_video_high_res/345.png",
-            "../../public/immagini_video_high_res/456.png",
+            "/immagini_video_high_res/234.png",
+            "/immagini_video_high_res/345.png",
+            "/immagini_video_high_res/456.png",
           ],
           description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
         social-first content, ensuring alignment with the brand guideline. <br>
@@ -217,9 +217,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "ACNE STUDIOS DIGITAL CONTENT",
           image: [
-            "../../public/immagini_video_high_res/Downloadcopy3.mp4",
-            "../../public/immagini_video_high_res/Download(1)copy.mp4",
-            "../../public/immagini_video_high_res/Download(2).mp4",
+            "/immagini_video_high_res/Downloadcopy3.mp4",
+            "/immagini_video_high_res/Download(1)copy.mp4",
+            "/immagini_video_high_res/Download(2).mp4",
           ],
           description: `Art direction and content production for Acne Studios Tik Tok channel, featuring runway content, <br>
         Backstage, everyday storytelling. <br>
@@ -237,9 +237,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA FW24 LOOKBOOK",
           image: [
-            "../../public/immagini_video_high_res/Downloadcopy4.mp4",
-            "../../public/immagini_video_high_res/Downloadcopy5.mp4",
-            "../../public/immagini_video_high_res/Downloadcopy6.mp4",
+            "/immagini_video_high_res/Downloadcopy4.mp4",
+            "/immagini_video_high_res/Downloadcopy5.mp4",
+            "/immagini_video_high_res/Downloadcopy6.mp4",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team, <br>
@@ -257,8 +257,8 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA HOLIDAY CAMPAIGN FW24",
           image: [
-            "../../public/immagini_video_high_res/Downloadcopy11.00.07.mp4",
-            "../../public/immagini_video_high_res/Downloadcopy7.mp4",
+            "/immagini_video_high_res/Downloadcopy11.00.07.mp4",
+            "/immagini_video_high_res/Downloadcopy7.mp4",
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
@@ -276,9 +276,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
           role: "CREATIVE PRODUCTION",
           title: "LORO PIANA COCOONING CAMPAIGN SS23",
           image: [
-            "../../public/immagini_video_high_res/Downloadcopy8.mp4",
-            "../../public/immagini_video_high_res/Download(1)copy3.mp4",
-            "../../public/immagini_video_high_res/Download(2)copy.mp4",
+            "/immagini_video_high_res/Downloadcopy8.mp4",
+            "/immagini_video_high_res/Download(1)copy3.mp4",
+            "/immagini_video_high_res/Download(2)copy.mp4",
           ],
           description: `Definition of creative briefs and image research. <br>
 Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
@@ -296,8 +296,8 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
           role: "EVENT + TALENTS COORDINATION",
           title: "LORO PIANA MILAN DESIGN WEEK 2024",
           image: [
-            "../../public/immagini_video_high_res/7.jpg",
-            "../../public/immagini_video_high_res/2.jpg",
+            "/immagini_video_high_res/7.jpg",
+            "/immagini_video_high_res/2.jpg",
           ],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
         My task was implementing the awareness of the brand, by activating the right talents and digital creators.
@@ -316,9 +316,9 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
           role: "EVENT + TALENTS COORDINATION",
           title: "LORO PIANA SS24 PRESS PRESENTATION",
           image: [
-            "../../public/immagini_video_high_res/Screenshot2025-0604at17.47.47.png",
-            "../../public/immagini_video_high_res/6.jpeg",
-            "../../public/immagini_video_high_res/542254254.png",
+            "/immagini_video_high_res/Screenshot2025-0604at17.47.47.png",
+            "/immagini_video_high_res/6.jpeg",
+            "/immagini_video_high_res/542254254.png",
           ],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
         My task was implementing the awareness of the brand, by activating the right talents and digital creators.
@@ -337,9 +337,9 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
           role: "EVENT + TALENTS COORDINATION",
           title: "LORO PIANA FW24 PRESS PRESENTATION",
           image: [
-            "../../public/immagini_video_high_res/1234.png",
-            "../../public/immagini_video_high_res/527522552.png",
-            "../../public/immagini_video_high_res/55758.png",
+            "/immagini_video_high_res/1234.png",
+            "/immagini_video_high_res/527522552.png",
+            "/immagini_video_high_res/55758.png",
           ],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
         My task was implementing the awareness of the brand, by activating the right talents and digital creators.
