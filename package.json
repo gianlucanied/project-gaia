@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.6",
     "three": "^0.177.0",
     "tsparticles": "^3.8.1",

@@ -1,7 +1,7 @@
 
 <template>
   <div class="about">
-    <div class="content-wrapper">
+    <div class="content-wrapper" data-aos="fade-up" data-aos-duration="2000">
       <div class="top-section">    
           <p>I am an Italia art director based in Milan. Graduated from London College of Comunication, (UAL). My work is built around different practices and techniques, including research, art direction, graphic design, web design, thinking and cooking. </p>
           <p>Currently working at Riccardo World.</p>
