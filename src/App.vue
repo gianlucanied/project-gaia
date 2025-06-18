@@ -15,7 +15,7 @@ export default {
 
 <style>
 #app {
-  position: relative;
+  /* position: relative; */
   font-family: 'Andale Mono', monospace;
   margin: 0;
 }

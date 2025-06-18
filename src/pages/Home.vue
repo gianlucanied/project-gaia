@@ -413,14 +413,13 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 
 <style scoped>
 .carousel {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  width: 100%;
+  background-color: black;
 }
 
 .carousel img {
   width: 100%;
-  height: auto;
+  max-height: auto;
   object-fit: contain;
   transition: opacity 0.5s ease-in-out;
 }
