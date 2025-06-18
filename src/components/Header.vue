@@ -8,14 +8,12 @@
 <style scoped>
 header {
   font-family: 'Andale Mono', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header {
-  width: 100vw;
-  height: 20vh;
-  position: absolute;
-  z-index: 1000;
+  width: 100%;
+  background-color: black;
   display: flex;
   justify-content:space-between;
 }

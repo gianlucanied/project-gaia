@@ -25,7 +25,7 @@
 .about {
   background: black;
   color: white;
-  padding: 10rem 0 3rem 0;
+  padding: 6rem 0 3rem 0;
   display: flex;
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
