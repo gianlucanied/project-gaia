@@ -585,6 +585,7 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 
   .roles {
     font-size: 1rem;
+    padding-bottom: 30px;
   }
 
   .project-section {
@@ -619,6 +620,10 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 
   .location {
     font-size: 10px;
+  }
+
+  .single-project {
+    padding-top: 100px;
   }
 }
 </style>
