@@ -43,7 +43,7 @@
           :href="link"
           target="_blank"
         >
-          {{ link }}
+          link-{{ idx + 1 }}
         </a>
       </div>
     </div>
@@ -261,7 +261,6 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/111.png",
             "/immagini_video_high_res/112.png",
             "/immagini_video_high_res/113.png",
-
           ],
           description: `Definition of creative briefs and image research. <br>
         Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
@@ -282,7 +281,6 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/114.png",
             "/immagini_video_high_res/115.png",
             "/immagini_video_high_res/116.png",
-
           ],
           description: `Definition of creative briefs and image research. <br>
 Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
