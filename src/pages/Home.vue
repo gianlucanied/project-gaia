@@ -544,10 +544,18 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 }
 
 .section-img img {
-  width: 200px;
+  width: 230px;
   height: auto;
   object-fit: cover;
 }
+
+.section-img img {
+  transition: box-shadow 0.3s ease;
+}
+
+.section-img img:hover {
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);}
+
 
 .single-project {
   display: flex;

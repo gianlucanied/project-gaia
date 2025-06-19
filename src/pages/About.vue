@@ -9,7 +9,7 @@
           culture, fashion, and contemporary design.
         </p>
         <p>
-          Formerly: Acne Studios, Loro Piana Clients: Prada, Stone Island,
+          Formerly: Acne Studios, Loro Piana <br>Clients: Prada, Stone Island,
           Culted, Simple Flair, NR Magazine, Convey
         </p>
       </div>
