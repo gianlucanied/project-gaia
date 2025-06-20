@@ -20,8 +20,12 @@
       v-for="(project, index) in projects"
       :key="index"
     >
-      <div class="roles" data-aos="fade-right" data-aos-duration="2000">{{ project.role }}</div>
-      <div class="title-project" data-aos="fade-left" data-aos-duration="2000">{{ project.title }}</div>
+      <div class="roles" data-aos="fade-right" data-aos-duration="2000">{{
+        project.role
+      }}</div>
+      <div class="title-project" data-aos="fade-left" data-aos-duration="2000">
+        {{ project.title }}
+      </div>
       <div class="section-img" data-aos="fade-right" data-aos-duration="2000">
         <template v-for="(media, idx) in project.image" :key="idx">
           <img
@@ -33,8 +37,18 @@
         </template>
       </div>
 
-      <p class="description-project" v-html="project.description" data-aos="fade-left" data-aos-duration="2000"></p>
-      <p class="location" v-html="project.location" data-aos="fade-right" data-aos-duration="2000"></p>
+      <p
+        class="description-project"
+        v-html="project.description"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      ></p>
+      <p
+        class="location"
+        v-html="project.location"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      ></p>
       <div class="link" data-aos="fade-right" data-aos-duration="2000">
         <span>LINK TO CONTENT:</span><br />
         <a
@@ -47,6 +61,9 @@
         </a>
       </div>
     </div>
+    <button id="scrollToTopBtn" @click="scrollToTop">
+      &#8593;
+    </button>
   </div>
 </template>
 
@@ -71,11 +88,11 @@ export default {
           ],
 
           description: `“Buried in a Coffin the Size of a Grain of Rice” (Installation) and “Midnight Pearls” (film) were installed in one of the art
-        pavilion at Horst festival for the 2025 edition. Within this space of meditation, prayer, silence and offering, we are invited to at
-        once re-enter the body and be transported to an in-between realm. Here, darkness is embraced to discover the first rays of light. A
-        portal connects the ancestral with the mortal world and allows entities to watch over the current mortal realm, offering guidance to
-        those willing to receive. We find a guardian watching over an unborn entity, in utero in the swamp.
-        I was part of the set design team that built the art and the pavilion before Horst Festival. `,
+          pavilion at Horst festival for the 2025 edition. Within this space of meditation, prayer, silence and offering, we are invited to at
+          once re-enter the body and be transported to an in-between realm. Here, darkness is embraced to discover the first rays of light. A
+          portal connects the ancestral with the mortal world and allows entities to watch over the current mortal realm, offering guidance to
+          those willing to receive. We find a guardian watching over an unborn entity, in utero in the swamp.
+          I was part of the set design team that built the art and the pavilion before Horst Festival. `,
           location:
             "Artist: Joshua Serafin Photography: Maryan Sayd + Kristina Railaitè <br><br> On view at Horst Festival / Asiat Park Vilvoorde, Belgium",
           links: [
@@ -92,16 +109,16 @@ export default {
             "/immagini_video_high_res/convey_installation-view-18-768x960.jpg",
           ],
           description: `Convey reached its third edition, establishing itself as a prominent international platform and accelerator for design. In close
-        collaboration with Simple Flair studio, I had the role of project manager of the exhibition and event producer, keep deadlines
-        and overseeing the brand identity and art direction for the setup and spatial design of the new location in the heart of Porta
-        Venezia. The project expanded along the street, creating a cohesive and engaging territorial experience that seamlessly
-        integrated various brand showcases and initiatives.`,
+          collaboration with Simple Flair studio, I had the role of project manager of the exhibition and event producer, keep deadlines
+          and overseeing the brand identity and art direction for the setup and spatial design of the new location in the heart of Porta
+          Venezia. The project expanded along the street, creating a cohesive and engaging territorial experience that seamlessly
+          integrated various brand showcases and initiatives.`,
           location: `Branding: Giga Design Studio
-Curatorship: Simple Flair
-Graphics + Art: Anna Meck<br> <br> shown at <br>
-        Milan Design Week <br>
-        Via Rosolino Pilo 14, Milano <br>
-        10 - 13 April 2025`,
+          Curatorship: Simple Flair
+          Graphics + Art: Anna Meck<br> <br> shown at <br>
+                  Milan Design Week <br>
+                  Via Rosolino Pilo 14, Milano <br>
+                  10 - 13 April 2025`,
           links: ["https://www.instagram.com/c_o_n_v_e_y/?hl=en"],
         },
         {
@@ -113,9 +130,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/102.png",
           ],
           description: `Definition of creative briefs and image research. <br>
-        Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors, models), fees negotiation, budget alignment. <br>
-        Coordination of pre-production logistc and post-production scheduling. <br>
-        Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors, models), fees negotiation, budget alignment. <br>
+          Coordination of pre-production logistc and post-production scheduling. <br>
+          Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
           location: "",
           links: [
             "https://www.instagram.com/p/DGpoHOuNiM1/",
@@ -131,10 +148,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/105.png",
           ],
           description: `Definition of creative briefs and image research. <br>
-        Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
-        models), fees negotiation, budget alignment. <br>
-        Coordination of pre-production logistc and post-production scheduling. <br>
-        Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          Management of all phases of the creative production: creative partners (set design team, styling team, DOP team, editors,
+          models), fees negotiation, budget alignment. <br>
+          Coordination of pre-production logistc and post-production scheduling. <br>
+          Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
           location: "",
           links: [
             "https://www.tiktok.com/@prada/video/7503701471863622934?lang=en",
@@ -151,10 +168,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/8.jpg",
           ],
           description: `Equilibrio is a yearly art residency and music festival taking place in Porto Ferro, Sardinia where emerging artists and experimental music
-        merge in a 7 days community experience. <br>
-        I was part of the collective, overseeing the the production of the festival (logistic, artists accommodation, food and beverage
-        organisation), the set design of the space and the communication (social media content, copywriting) and business developments (connect
-        with potential partners, make presentations and planning)`,
+          merge in a 7 days community experience. <br>
+          I was part of the collective, overseeing the the production of the festival (logistic, artists accommodation, food and beverage
+          organisation), the set design of the space and the communication (social media content, copywriting) and business developments (connect
+          with potential partners, make presentations and planning)`,
           location: "",
           links: [" https://www.instagram.com/project.equilibrio/?hl=en"],
         },
@@ -168,11 +185,11 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/1.jpg",
           ],
           description: `Interview to Suzanne Ciani - the legendary electronic music pioneer - discussing her decades-long career, transcendence in
-        sound, and reshaping consciousness. <br>
-        Interview by Gaia Grisanti <br>
-        Photography by Yudo Kurita <br>
-        Styling by Elidad <br>
-        Clothes Bottega Veneta`,
+          sound, and reshaping consciousness. <br>
+          Interview by Gaia Grisanti <br>
+          Photography by Yudo Kurita <br>
+          Styling by Elidad <br>
+          Clothes Bottega Veneta`,
           location:
             "Editor-In-Chief: Jade Removille <br> Photography: Yudo Kurita",
           links: ["https://www.instagram.com/p/DFiTuY5I8kU/?hl=en"],
@@ -187,10 +204,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/Screenshot2025-06-17184824.png",
           ],
           description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
-        social-first content, ensuring alignment with the brand guideline. <br>
-        Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
-        Image and film coordination of KOLs, celebrities and Talents at the photocall. <br>
-        Definition of the the social editorial calendars and content rollouts.`,
+          social-first content, ensuring alignment with the brand guideline. <br>
+          Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
+          Image and film coordination of KOLs, celebrities and Talents at the photocall. <br>
+          Definition of the the social editorial calendars and content rollouts.`,
           location:
             "shown at Lycée Carnot 145 Boulevard Malesherbes in the 17th arrondissement, Paris",
           links: ["https://www.youtube.com/watch?v=SvYFB6Is_kE"],
@@ -205,10 +222,10 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/456.png",
           ],
           description: `Support in all the digital content production for FW23 Acne Studios Show: pre-production logistic and post production phases, assisting onsite for all
-        social-first content, ensuring alignment with the brand guideline. <br>
-        Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
-        Image and film coordination of KOLs, celebrities and Talents at the photocall. <br>
-        Definition of the the social editorial calendars and content rollouts`,
+          social-first content, ensuring alignment with the brand guideline. <br>
+          Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
+          Image and film coordination of KOLs, celebrities and Talents at the photocall. <br>
+          Definition of the the social editorial calendars and content rollouts`,
           location:
             "shown at Palais De Tokyo 13 Av. du Président Wilson, 75116 Paris, France",
           links: ["https://www.youtube.com/watch?v=NWx5hKTwO5I&t=6s"],
@@ -223,9 +240,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/107.png",
           ],
           description: `Art direction and content production for Acne Studios Tik Tok channel, featuring runway content, <br>
-        Backstage, everyday storytelling. <br>
-        Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
-        Coordination the social editorial calendars and content rollouts.`,
+          Backstage, everyday storytelling. <br>
+          Production of ad-hoc timelines for content production, post-production and delivery for all social platforms. <br>
+          Coordination the social editorial calendars and content rollouts.`,
           location: "",
           links: [
             "https://www.tiktok.com/@acnestudios/video/7176652147130404101?lang=en",
@@ -243,9 +260,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/110.png",
           ],
           description: `Definition of creative briefs and image research. <br>
-        Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team, <br>
-        editors, models) 
-        Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team, <br>
+          editors, models) 
+          Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7397468770744143136?lang=en",
@@ -263,9 +280,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/113.png",
           ],
           description: `Definition of creative briefs and image research. <br>
-        Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
-        editors, models) <br>
-        Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+          Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
+          editors, models) <br>
+          Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7436464688558247190?lang=en",
@@ -283,9 +300,9 @@ Graphics + Art: Anna Meck<br> <br> shown at <br>
             "/immagini_video_high_res/116.png",
           ],
           description: `Definition of creative briefs and image research. <br>
-Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
-editors, models) <br>
-Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
+        Management of all phases of the content production: managing creative partners (set design team, styling team, DOP team,
+        editors, models) <br>
+        Cross-funcational alignment with internal departments (Merchandising, Product, GTM, E-commerce, Paid Media)`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7294259000038788385?lang=en",
@@ -297,17 +314,14 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
         {
           role: "EVENT + TALENTS COORDINATION",
           title: "LORO PIANA MILAN DESIGN WEEK 2024",
-          image: [
-            "/immagini_video_high_res/7.jpg",
-            "/immagini_video_high_res/2.jpg",
-          ],
+          image: ["/immagini_video_high_res/7.jpg", "/immagini_video_high_res/2.jpg"],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
-        My task was implementing the awareness of the brand, by activating the right talents and digital creators.
-        MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
-        I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
-        presence at events and taking care of content creation.
-        This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
-        Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+          MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+          I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+          presence at events and taking care of content creation.
+          This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+          Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7359578713257790753?lang=en",
@@ -323,12 +337,12 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
             "/immagini_video_high_res/542254254.png",
           ],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
-        My task was implementing the awareness of the brand, by activating the right talents and digital creators.
-        MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
-        I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
-        presence at events and taking care of content creation.
-        This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
-        Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+          MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+          I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+          presence at events and taking care of content creation.
+          This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+          Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7281702802357865760?lang=en",
@@ -344,12 +358,12 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
             "/immagini_video_high_res/55758.png",
           ],
           description: `During my in-house experience at Loro Piana, I was in charge of social media and talents coordination.
-        My task was implementing the awareness of the brand, by activating the right talents and digital creators.
-        MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
-        I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
-        presence at events and taking care of content creation.
-        This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
-        Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
+          My task was implementing the awareness of the brand, by activating the right talents and digital creators.
+          MY role required the creation of and influencer strategy and digital creators strategy to increase the awareness of the brand.
+          I was particularly taking care of organising the talents journey (fitting, seeding, travels, accommodations),coordinating their
+          presence at events and taking care of content creation.
+          This process involved a high level of budget management, fees negotiation and internal coordination with communication teams.
+          Talents involved: @fredstauffer @brendahashtag @stylenotcom @highsnobiety @culted @juliahobbs`,
           location: "",
           links: [
             "https://www.tiktok.com/@loropiana/video/7339203239247629600?lang=en",
@@ -409,6 +423,12 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
         this.currentIndex = (this.currentIndex + 1) % this.images.length;
       }, 3000);
     },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Per un effetto di scorrimento fluido
+      });
+    },
   },
 };
 </script>
@@ -440,6 +460,7 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   padding: 100px;
   background-color: black;
   color: white;
+  position: relative; /* Necessario per posizionare il pulsante */
 }
 
 .work-section {
@@ -473,7 +494,6 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 .single-project:last-of-type {
   padding-bottom: 200px;
 }
-
 
 .roles {
   grid-area: roles;
@@ -553,14 +573,12 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   height: auto;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
 
 .section-img img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);
 }
-
 
 .single-project {
   display: flex;
@@ -575,6 +593,25 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
 .location,
 .link {
   flex: 1 1 50%;
+}
+
+#scrollToTopBtn {
+  position: fixed; /* Mantiene il pulsante fisso durante lo scroll */
+  bottom: 20px; /* Distanza dal bordo inferiore */
+  right: 20px; /* Distanza dal bordo destro */
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  opacity: 0.7; /* Leggermente trasparente */
+  z-index: 100; /* Assicura che sia sopra altri elementi */
+}
+
+#scrollToTopBtn:hover {
+  opacity: 1; /* Più visibile al passaggio del mouse */
 }
 
 @media (max-width: 768px) {
