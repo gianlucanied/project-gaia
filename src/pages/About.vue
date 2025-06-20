@@ -9,7 +9,7 @@
           culture, fashion, and contemporary design.
         </p>
         <p>
-          Formerly: Acne Studios, Loro Piana <br>Clients: Prada, Stone Island,
+          Formerly: Acne Studios, Loro Piana <br />Clients: Prada, Stone Island,
           Culted, Simple Flair, NR Magazine, Convey
         </p>
       </div>
@@ -17,7 +17,9 @@
       <div class="bottom-section">
         <div>
           <p class="email">email</p>
-          <p class="typing-effect"><a href="mailto:gaia.grisanti@gmail.com">gaia.grisanti@gmail.com</a></p>
+          <p class="typing-effect">
+            <a href="mailto:gaia.grisanti@gmail.com">gaia.grisanti@gmail.com</a>
+          </p>
         </div>
       </div>
     </div>
@@ -26,23 +28,29 @@
 
 <style scoped>
 .about {
-  background: black;
+  background-image: url(/public/immagini_video_high_res/low-poly-grid-haikei.svg);
   color: white;
   padding: 6rem 0 3rem 0;
   display: flex;
   justify-content: center;
   font-family: "Courier New", Courier, monospace;
   height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .content-wrapper {
   max-width: 50vw;
-  padding: 0 1rem;
+  padding: 1rem;
+  background-color: black;
+  height: fit-content;
 }
 
 .top-section p {
   line-height: 1.5;
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 .bottom-section {

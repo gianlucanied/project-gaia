@@ -470,6 +470,11 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   gap: 1rem;
 }
 
+.single-project:last-of-type {
+  padding-bottom: 200px;
+}
+
+
 .roles {
   grid-area: roles;
   align-self: start;
