@@ -16,8 +16,8 @@
 
       <div class="bottom-section">
         <div>
-          <p>email</p>
-          <p class="typing-effect">gaia.grisanti@gmail.com</p>
+          <p class="email">email</p>
+          <p class="typing-effect"><a href="mailto:gaia.grisanti@gmail.com">gaia.grisanti@gmail.com</a></p>
         </div>
       </div>
     </div>
@@ -50,6 +50,11 @@
   margin-top: 4rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .bottom-section div {
   margin-top: 2rem;
   background-color: white;
@@ -76,6 +81,10 @@
 @media (max-width: 768px) {
   .content-wrapper {
     max-width: 70vw;
+  }
+
+  .email {
+    display: none;
   }
 }
 </style>

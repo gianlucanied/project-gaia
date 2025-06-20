@@ -20,9 +20,9 @@
       v-for="(project, index) in projects"
       :key="index"
     >
-      <div class="roles">{{ project.role }}</div>
-      <div class="title-project">{{ project.title }}</div>
-      <div class="section-img">
+      <div class="roles" data-aos="fade-right" data-aos-duration="2000">{{ project.role }}</div>
+      <div class="title-project" data-aos="fade-left" data-aos-duration="2000">{{ project.title }}</div>
+      <div class="section-img" data-aos="fade-right" data-aos-duration="2000">
         <template v-for="(media, idx) in project.image" :key="idx">
           <img
             v-if="!media.endsWith('.mp4')"
@@ -33,9 +33,9 @@
         </template>
       </div>
 
-      <p class="description-project" v-html="project.description"></p>
-      <p class="location" v-html="project.location"></p>
-      <div class="link">
+      <p class="description-project" v-html="project.description" data-aos="fade-left" data-aos-duration="2000"></p>
+      <p class="location" v-html="project.location" data-aos="fade-right" data-aos-duration="2000"></p>
+      <div class="link" data-aos="fade-right" data-aos-duration="2000">
         <span>LINK TO CONTENT:</span><br />
         <a
           v-for="(link, idx) in project.links"
@@ -547,14 +547,14 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   width: 230px;
   height: auto;
   object-fit: cover;
-}
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-.section-img img {
-  transition: box-shadow 0.3s ease;
 }
 
 .section-img img:hover {
-  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);}
+  transform: scale(1.05);
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);
+}
 
 
 .single-project {
@@ -608,7 +608,7 @@ Cross-funcational alignment with internal departments (Merchandising, Product, G
   }
 
   .big-title {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
   }
 
   .mid-title {

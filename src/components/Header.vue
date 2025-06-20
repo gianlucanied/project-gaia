@@ -1,7 +1,7 @@
 <template>
   <header class="header">
-      <router-link to="/">Gaia Grisanti</router-link>
-      <router-link to="/about">About</router-link>
+      <router-link to="/" data-aos="fade-right" data-aos-duration="2000">Gaia Grisanti</router-link>
+      <router-link to="/about" data-aos="fade-left" data-aos-duration="2000">About</router-link>
   </header>
 </template>
 
