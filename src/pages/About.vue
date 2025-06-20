@@ -43,7 +43,6 @@
 .content-wrapper {
   max-width: 50vw;
   padding: 1rem;
-  background-color: black;
   height: fit-content;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
