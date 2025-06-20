@@ -45,6 +45,13 @@
   padding: 1rem;
   background-color: black;
   height: fit-content;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.content-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);
 }
 
 .top-section p {
