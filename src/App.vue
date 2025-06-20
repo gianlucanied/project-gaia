@@ -14,6 +14,11 @@ export default {
 </script>
 
 <style>
+
+html {
+  overflow-x: clip;
+}
+
 #app {
   /* position: relative; */
   font-family: 'Andale Mono', monospace;

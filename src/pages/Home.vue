@@ -565,7 +565,7 @@ export default {
 .section-img {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 30px;
 }
 
 .section-img img {
@@ -576,7 +576,7 @@ export default {
 }
 
 .section-img img:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
   box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.95);
 }
 
