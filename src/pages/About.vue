@@ -28,7 +28,7 @@
 
 <style scoped>
 .about {
-  background-image: url(/public/immagini_video_high_res/low-poly-grid-haikei.svg);
+  background-image: url(/immagini_video_high_res/AnimatedShape1.svg);
   color: white;
   padding: 6rem 0 3rem 0;
   display: flex;
